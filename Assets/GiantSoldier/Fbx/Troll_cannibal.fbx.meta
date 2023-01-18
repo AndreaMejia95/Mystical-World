@@ -1,0 +1,3065 @@
+fileFormatVersion: 2
+guid: 8c7460f96e8004b4f8ccca93f126e395
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: base
+  - first:
+      1: 100002
+    second: bone
+  - first:
+      1: 100004
+    second: chest
+  - first:
+      1: 100006
+    second: Elbow.L
+  - first:
+      1: 100008
+    second: Elbow.L_end
+  - first:
+      1: 100010
+    second: Elbow.R
+  - first:
+      1: 100012
+    second: Elbow.R_end
+  - first:
+      1: 100014
+    second: f_ring.01.L
+  - first:
+      1: 100016
+    second: f_ring.01.R
+  - first:
+      1: 100018
+    second: f_ring.02.L
+  - first:
+      1: 100020
+    second: f_ring.02.L_end
+  - first:
+      1: 100022
+    second: f_ring.02.R
+  - first:
+      1: 100024
+    second: f_ring.02.R_end
+  - first:
+      1: 100026
+    second: foot.L
+  - first:
+      1: 100028
+    second: foot.L_end
+  - first:
+      1: 100030
+    second: foot.R
+  - first:
+      1: 100032
+    second: foot.R_end
+  - first:
+      1: 100034
+    second: foot_IK.L
+  - first:
+      1: 100036
+    second: foot_IK.R
+  - first:
+      1: 100038
+    second: forearm.L
+  - first:
+      1: 100040
+    second: forearm.R
+  - first:
+      1: 100042
+    second: hand.L
+  - first:
+      1: 100044
+    second: hand.R
+  - first:
+      1: 100046
+    second: hand_IK.L
+  - first:
+      1: 100048
+    second: hand_IK.L_end
+  - first:
+      1: 100050
+    second: hand_IK.R
+  - first:
+      1: 100052
+    second: hand_IK.R_end
+  - first:
+      1: 100054
+    second: head
+  - first:
+      1: 100056
+    second: head_end
+  - first:
+      1: 100058
+    second: hips
+  - first:
+      1: 100060
+    second: knee.L
+  - first:
+      1: 100062
+    second: knee.L_end
+  - first:
+      1: 100064
+    second: knee.R
+  - first:
+      1: 100066
+    second: knee.R_end
+  - first:
+      1: 100068
+    second: palm.03.L
+  - first:
+      1: 100070
+    second: palm.03.R
+  - first:
+      1: 100072
+    second: shin.L
+  - first:
+      1: 100074
+    second: shin.L_end
+  - first:
+      1: 100076
+    second: shin.R
+  - first:
+      1: 100078
+    second: shin.R_end
+  - first:
+      1: 100080
+    second: spine
+  - first:
+      1: 100082
+    second: thigh.L
+  - first:
+      1: 100084
+    second: thigh.R
+  - first:
+      1: 100086
+    second: thumb.02.L
+  - first:
+      1: 100088
+    second: thumb.02.R
+  - first:
+      1: 100090
+    second: thumb.03.L
+  - first:
+      1: 100092
+    second: thumb.03.L_end
+  - first:
+      1: 100094
+    second: thumb.03.R
+  - first:
+      1: 100096
+    second: thumb.03.R_end
+  - first:
+      1: 100098
+    second: troll
+  - first:
+      1: 100100
+    second: //RootNode
+  - first:
+      1: 100102
+    second: Ttoll
+  - first:
+      1: 100104
+    second: upper_arm.L
+  - first:
+      1: 100106
+    second: upper_arm.R
+  - first:
+      1: 100108
+    second: upper_armor.L
+  - first:
+      1: 100110
+    second: upper_armor.L_end
+  - first:
+      1: 100112
+    second: upper_armor.R
+  - first:
+      1: 100114
+    second: upper_armor.R_end
+  - first:
+      1: 100116
+    second: weapon
+  - first:
+      1: 100118
+    second: weapon_end
+  - first:
+      4: 400000
+    second: base
+  - first:
+      4: 400002
+    second: bone
+  - first:
+      4: 400004
+    second: chest
+  - first:
+      4: 400006
+    second: Elbow.L
+  - first:
+      4: 400008
+    second: Elbow.L_end
+  - first:
+      4: 400010
+    second: Elbow.R
+  - first:
+      4: 400012
+    second: Elbow.R_end
+  - first:
+      4: 400014
+    second: f_ring.01.L
+  - first:
+      4: 400016
+    second: f_ring.01.R
+  - first:
+      4: 400018
+    second: f_ring.02.L
+  - first:
+      4: 400020
+    second: f_ring.02.L_end
+  - first:
+      4: 400022
+    second: f_ring.02.R
+  - first:
+      4: 400024
+    second: f_ring.02.R_end
+  - first:
+      4: 400026
+    second: foot.L
+  - first:
+      4: 400028
+    second: foot.L_end
+  - first:
+      4: 400030
+    second: foot.R
+  - first:
+      4: 400032
+    second: foot.R_end
+  - first:
+      4: 400034
+    second: foot_IK.L
+  - first:
+      4: 400036
+    second: foot_IK.R
+  - first:
+      4: 400038
+    second: forearm.L
+  - first:
+      4: 400040
+    second: forearm.R
+  - first:
+      4: 400042
+    second: hand.L
+  - first:
+      4: 400044
+    second: hand.R
+  - first:
+      4: 400046
+    second: hand_IK.L
+  - first:
+      4: 400048
+    second: hand_IK.L_end
+  - first:
+      4: 400050
+    second: hand_IK.R
+  - first:
+      4: 400052
+    second: hand_IK.R_end
+  - first:
+      4: 400054
+    second: head
+  - first:
+      4: 400056
+    second: head_end
+  - first:
+      4: 400058
+    second: hips
+  - first:
+      4: 400060
+    second: knee.L
+  - first:
+      4: 400062
+    second: knee.L_end
+  - first:
+      4: 400064
+    second: knee.R
+  - first:
+      4: 400066
+    second: knee.R_end
+  - first:
+      4: 400068
+    second: palm.03.L
+  - first:
+      4: 400070
+    second: palm.03.R
+  - first:
+      4: 400072
+    second: shin.L
+  - first:
+      4: 400074
+    second: shin.L_end
+  - first:
+      4: 400076
+    second: shin.R
+  - first:
+      4: 400078
+    second: shin.R_end
+  - first:
+      4: 400080
+    second: spine
+  - first:
+      4: 400082
+    second: thigh.L
+  - first:
+      4: 400084
+    second: thigh.R
+  - first:
+      4: 400086
+    second: thumb.02.L
+  - first:
+      4: 400088
+    second: thumb.02.R
+  - first:
+      4: 400090
+    second: thumb.03.L
+  - first:
+      4: 400092
+    second: thumb.03.L_end
+  - first:
+      4: 400094
+    second: thumb.03.R
+  - first:
+      4: 400096
+    second: thumb.03.R_end
+  - first:
+      4: 400098
+    second: troll
+  - first:
+      4: 400100
+    second: //RootNode
+  - first:
+      4: 400102
+    second: Ttoll
+  - first:
+      4: 400104
+    second: upper_arm.L
+  - first:
+      4: 400106
+    second: upper_arm.R
+  - first:
+      4: 400108
+    second: upper_armor.L
+  - first:
+      4: 400110
+    second: upper_armor.L_end
+  - first:
+      4: 400112
+    second: upper_armor.R
+  - first:
+      4: 400114
+    second: upper_armor.R_end
+  - first:
+      4: 400116
+    second: weapon
+  - first:
+      4: 400118
+    second: weapon_end
+  - first:
+      43: 4300000
+    second: Ttoll
+  - first:
+      43: 4300002
+    second: bone
+  - first:
+      74: 7400000
+    second: troll|trollAction
+  - first:
+      74: 7400002
+    second: idle
+  - first:
+      74: 7400004
+    second: walk
+  - first:
+      74: 7400006
+    second: run
+  - first:
+      74: 7400008
+    second: idle battl
+  - first:
+      74: 7400010
+    second: attack 1
+  - first:
+      74: 7400012
+    second: attack 2
+  - first:
+      74: 7400014
+    second: attack 3
+  - first:
+      74: 7400016
+    second: attack 4
+  - first:
+      74: 7400018
+    second: cast
+  - first:
+      74: 7400020
+    second: defence
+  - first:
+      74: 7400022
+    second: hit 1
+  - first:
+      74: 7400024
+    second: hit 2
+  - first:
+      74: 7400026
+    second: death 1
+  - first:
+      74: 7400028
+    second: death 2
+  - first:
+      74: 7400030
+    second: jump
+  - first:
+      74: 7400032
+    second: victory
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: bone
+  - first:
+      137: 13700002
+    second: Ttoll
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: troll|trollAction
+      takeName: troll|trollAction
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1950
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone
+        weight: 1
+      - path: troll
+        weight: 1
+      - path: troll/base
+        weight: 1
+      - path: troll/base/Elbow.L
+        weight: 1
+      - path: troll/base/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: troll/base/Elbow.R
+        weight: 1
+      - path: troll/base/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: troll/base/foot_IK.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L/foot.L_end
+        weight: 1
+      - path: troll/base/foot_IK.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R/foot.R_end
+        weight: 1
+      - path: troll/base/hand_IK.L
+        weight: 1
+      - path: troll/base/hand_IK.L/hand_IK.L_end
+        weight: 1
+      - path: troll/base/hand_IK.R
+        weight: 1
+      - path: troll/base/hand_IK.R/hand_IK.R_end
+        weight: 1
+      - path: troll/base/hips
+        weight: 1
+      - path: troll/base/hips/spine
+        weight: 1
+      - path: troll/base/hips/spine/chest
+        weight: 1
+      - path: troll/base/hips/spine/chest/head
+        weight: 1
+      - path: troll/base/hips/spine/chest/head/head_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.02.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R/f_ring.02.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon/weapon_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L/upper_armor.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R/upper_armor.R_end
+        weight: 1
+      - path: troll/base/hips/thigh.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L/shin.L_end
+        weight: 1
+      - path: troll/base/hips/thigh.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R/shin.R_end
+        weight: 1
+      - path: troll/base/knee.L
+        weight: 1
+      - path: troll/base/knee.L/knee.L_end
+        weight: 1
+      - path: troll/base/knee.R
+        weight: 1
+      - path: troll/base/knee.R/knee.R_end
+        weight: 1
+      - path: Ttoll
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: troll|trollAction
+      internalID: 0
+      firstFrame: 100
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone
+        weight: 1
+      - path: troll
+        weight: 1
+      - path: troll/base
+        weight: 1
+      - path: troll/base/Elbow.L
+        weight: 1
+      - path: troll/base/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: troll/base/Elbow.R
+        weight: 1
+      - path: troll/base/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: troll/base/foot_IK.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L/foot.L_end
+        weight: 1
+      - path: troll/base/foot_IK.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R/foot.R_end
+        weight: 1
+      - path: troll/base/hand_IK.L
+        weight: 1
+      - path: troll/base/hand_IK.L/hand_IK.L_end
+        weight: 1
+      - path: troll/base/hand_IK.R
+        weight: 1
+      - path: troll/base/hand_IK.R/hand_IK.R_end
+        weight: 1
+      - path: troll/base/hips
+        weight: 1
+      - path: troll/base/hips/spine
+        weight: 1
+      - path: troll/base/hips/spine/chest
+        weight: 1
+      - path: troll/base/hips/spine/chest/head
+        weight: 1
+      - path: troll/base/hips/spine/chest/head/head_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.02.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R/f_ring.02.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon/weapon_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L/upper_armor.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R/upper_armor.R_end
+        weight: 1
+      - path: troll/base/hips/thigh.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L/shin.L_end
+        weight: 1
+      - path: troll/base/hips/thigh.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R/shin.R_end
+        weight: 1
+      - path: troll/base/knee.L
+        weight: 1
+      - path: troll/base/knee.L/knee.L_end
+        weight: 1
+      - path: troll/base/knee.R
+        weight: 1
+      - path: troll/base/knee.R/knee.R_end
+        weight: 1
+      - path: Ttoll
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: troll|trollAction
+      internalID: 0
+      firstFrame: 300
+      lastFrame: 340
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone
+        weight: 1
+      - path: troll
+        weight: 1
+      - path: troll/base
+        weight: 1
+      - path: troll/base/Elbow.L
+        weight: 1
+      - path: troll/base/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: troll/base/Elbow.R
+        weight: 1
+      - path: troll/base/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: troll/base/foot_IK.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L/foot.L_end
+        weight: 1
+      - path: troll/base/foot_IK.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R/foot.R_end
+        weight: 1
+      - path: troll/base/hand_IK.L
+        weight: 1
+      - path: troll/base/hand_IK.L/hand_IK.L_end
+        weight: 1
+      - path: troll/base/hand_IK.R
+        weight: 1
+      - path: troll/base/hand_IK.R/hand_IK.R_end
+        weight: 1
+      - path: troll/base/hips
+        weight: 1
+      - path: troll/base/hips/spine
+        weight: 1
+      - path: troll/base/hips/spine/chest
+        weight: 1
+      - path: troll/base/hips/spine/chest/head
+        weight: 1
+      - path: troll/base/hips/spine/chest/head/head_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.02.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R/f_ring.02.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon/weapon_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L/upper_armor.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R/upper_armor.R_end
+        weight: 1
+      - path: troll/base/hips/thigh.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L/shin.L_end
+        weight: 1
+      - path: troll/base/hips/thigh.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R/shin.R_end
+        weight: 1
+      - path: troll/base/knee.L
+        weight: 1
+      - path: troll/base/knee.L/knee.L_end
+        weight: 1
+      - path: troll/base/knee.R
+        weight: 1
+      - path: troll/base/knee.R/knee.R_end
+        weight: 1
+      - path: Ttoll
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle battl
+      takeName: troll|trollAction
+      internalID: 0
+      firstFrame: 400
+      lastFrame: 520
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone
+        weight: 1
+      - path: troll
+        weight: 1
+      - path: troll/base
+        weight: 1
+      - path: troll/base/Elbow.L
+        weight: 1
+      - path: troll/base/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: troll/base/Elbow.R
+        weight: 1
+      - path: troll/base/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: troll/base/foot_IK.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L/foot.L_end
+        weight: 1
+      - path: troll/base/foot_IK.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R/foot.R_end
+        weight: 1
+      - path: troll/base/hand_IK.L
+        weight: 1
+      - path: troll/base/hand_IK.L/hand_IK.L_end
+        weight: 1
+      - path: troll/base/hand_IK.R
+        weight: 1
+      - path: troll/base/hand_IK.R/hand_IK.R_end
+        weight: 1
+      - path: troll/base/hips
+        weight: 1
+      - path: troll/base/hips/spine
+        weight: 1
+      - path: troll/base/hips/spine/chest
+        weight: 1
+      - path: troll/base/hips/spine/chest/head
+        weight: 1
+      - path: troll/base/hips/spine/chest/head/head_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.02.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R/f_ring.02.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon/weapon_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L/upper_armor.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R/upper_armor.R_end
+        weight: 1
+      - path: troll/base/hips/thigh.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L/shin.L_end
+        weight: 1
+      - path: troll/base/hips/thigh.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R/shin.R_end
+        weight: 1
+      - path: troll/base/knee.L
+        weight: 1
+      - path: troll/base/knee.L/knee.L_end
+        weight: 1
+      - path: troll/base/knee.R
+        weight: 1
+      - path: troll/base/knee.R/knee.R_end
+        weight: 1
+      - path: Ttoll
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: troll|trollAction
+      internalID: 0
+      firstFrame: 600
+      lastFrame: 630
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone
+        weight: 1
+      - path: troll
+        weight: 1
+      - path: troll/base
+        weight: 1
+      - path: troll/base/Elbow.L
+        weight: 1
+      - path: troll/base/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: troll/base/Elbow.R
+        weight: 1
+      - path: troll/base/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: troll/base/foot_IK.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L/foot.L_end
+        weight: 1
+      - path: troll/base/foot_IK.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R/foot.R_end
+        weight: 1
+      - path: troll/base/hand_IK.L
+        weight: 1
+      - path: troll/base/hand_IK.L/hand_IK.L_end
+        weight: 1
+      - path: troll/base/hand_IK.R
+        weight: 1
+      - path: troll/base/hand_IK.R/hand_IK.R_end
+        weight: 1
+      - path: troll/base/hips
+        weight: 1
+      - path: troll/base/hips/spine
+        weight: 1
+      - path: troll/base/hips/spine/chest
+        weight: 1
+      - path: troll/base/hips/spine/chest/head
+        weight: 1
+      - path: troll/base/hips/spine/chest/head/head_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.02.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R/f_ring.02.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon/weapon_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L/upper_armor.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R/upper_armor.R_end
+        weight: 1
+      - path: troll/base/hips/thigh.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L/shin.L_end
+        weight: 1
+      - path: troll/base/hips/thigh.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R/shin.R_end
+        weight: 1
+      - path: troll/base/knee.L
+        weight: 1
+      - path: troll/base/knee.L/knee.L_end
+        weight: 1
+      - path: troll/base/knee.R
+        weight: 1
+      - path: troll/base/knee.R/knee.R_end
+        weight: 1
+      - path: Ttoll
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack 1
+      takeName: troll|trollAction
+      internalID: 0
+      firstFrame: 700
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone
+        weight: 1
+      - path: troll
+        weight: 1
+      - path: troll/base
+        weight: 1
+      - path: troll/base/Elbow.L
+        weight: 1
+      - path: troll/base/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: troll/base/Elbow.R
+        weight: 1
+      - path: troll/base/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: troll/base/foot_IK.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L/foot.L_end
+        weight: 1
+      - path: troll/base/foot_IK.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R/foot.R_end
+        weight: 1
+      - path: troll/base/hand_IK.L
+        weight: 1
+      - path: troll/base/hand_IK.L/hand_IK.L_end
+        weight: 1
+      - path: troll/base/hand_IK.R
+        weight: 1
+      - path: troll/base/hand_IK.R/hand_IK.R_end
+        weight: 1
+      - path: troll/base/hips
+        weight: 1
+      - path: troll/base/hips/spine
+        weight: 1
+      - path: troll/base/hips/spine/chest
+        weight: 1
+      - path: troll/base/hips/spine/chest/head
+        weight: 1
+      - path: troll/base/hips/spine/chest/head/head_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.02.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R/f_ring.02.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon/weapon_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L/upper_armor.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R/upper_armor.R_end
+        weight: 1
+      - path: troll/base/hips/thigh.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L/shin.L_end
+        weight: 1
+      - path: troll/base/hips/thigh.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R/shin.R_end
+        weight: 1
+      - path: troll/base/knee.L
+        weight: 1
+      - path: troll/base/knee.L/knee.L_end
+        weight: 1
+      - path: troll/base/knee.R
+        weight: 1
+      - path: troll/base/knee.R/knee.R_end
+        weight: 1
+      - path: Ttoll
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack 2
+      takeName: troll|trollAction
+      internalID: 0
+      firstFrame: 800
+      lastFrame: 830
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone
+        weight: 1
+      - path: troll
+        weight: 1
+      - path: troll/base
+        weight: 1
+      - path: troll/base/Elbow.L
+        weight: 1
+      - path: troll/base/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: troll/base/Elbow.R
+        weight: 1
+      - path: troll/base/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: troll/base/foot_IK.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L/foot.L_end
+        weight: 1
+      - path: troll/base/foot_IK.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R/foot.R_end
+        weight: 1
+      - path: troll/base/hand_IK.L
+        weight: 1
+      - path: troll/base/hand_IK.L/hand_IK.L_end
+        weight: 1
+      - path: troll/base/hand_IK.R
+        weight: 1
+      - path: troll/base/hand_IK.R/hand_IK.R_end
+        weight: 1
+      - path: troll/base/hips
+        weight: 1
+      - path: troll/base/hips/spine
+        weight: 1
+      - path: troll/base/hips/spine/chest
+        weight: 1
+      - path: troll/base/hips/spine/chest/head
+        weight: 1
+      - path: troll/base/hips/spine/chest/head/head_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.02.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R/f_ring.02.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon/weapon_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L/upper_armor.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R/upper_armor.R_end
+        weight: 1
+      - path: troll/base/hips/thigh.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L/shin.L_end
+        weight: 1
+      - path: troll/base/hips/thigh.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R/shin.R_end
+        weight: 1
+      - path: troll/base/knee.L
+        weight: 1
+      - path: troll/base/knee.L/knee.L_end
+        weight: 1
+      - path: troll/base/knee.R
+        weight: 1
+      - path: troll/base/knee.R/knee.R_end
+        weight: 1
+      - path: Ttoll
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack 3
+      takeName: troll|trollAction
+      internalID: 0
+      firstFrame: 900
+      lastFrame: 930
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone
+        weight: 1
+      - path: troll
+        weight: 1
+      - path: troll/base
+        weight: 1
+      - path: troll/base/Elbow.L
+        weight: 1
+      - path: troll/base/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: troll/base/Elbow.R
+        weight: 1
+      - path: troll/base/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: troll/base/foot_IK.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L/foot.L_end
+        weight: 1
+      - path: troll/base/foot_IK.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R/foot.R_end
+        weight: 1
+      - path: troll/base/hand_IK.L
+        weight: 1
+      - path: troll/base/hand_IK.L/hand_IK.L_end
+        weight: 1
+      - path: troll/base/hand_IK.R
+        weight: 1
+      - path: troll/base/hand_IK.R/hand_IK.R_end
+        weight: 1
+      - path: troll/base/hips
+        weight: 1
+      - path: troll/base/hips/spine
+        weight: 1
+      - path: troll/base/hips/spine/chest
+        weight: 1
+      - path: troll/base/hips/spine/chest/head
+        weight: 1
+      - path: troll/base/hips/spine/chest/head/head_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.02.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R/f_ring.02.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon/weapon_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L/upper_armor.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R/upper_armor.R_end
+        weight: 1
+      - path: troll/base/hips/thigh.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L/shin.L_end
+        weight: 1
+      - path: troll/base/hips/thigh.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R/shin.R_end
+        weight: 1
+      - path: troll/base/knee.L
+        weight: 1
+      - path: troll/base/knee.L/knee.L_end
+        weight: 1
+      - path: troll/base/knee.R
+        weight: 1
+      - path: troll/base/knee.R/knee.R_end
+        weight: 1
+      - path: Ttoll
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack 4
+      takeName: troll|trollAction
+      internalID: 0
+      firstFrame: 1000
+      lastFrame: 1030
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone
+        weight: 1
+      - path: troll
+        weight: 1
+      - path: troll/base
+        weight: 1
+      - path: troll/base/Elbow.L
+        weight: 1
+      - path: troll/base/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: troll/base/Elbow.R
+        weight: 1
+      - path: troll/base/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: troll/base/foot_IK.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L/foot.L_end
+        weight: 1
+      - path: troll/base/foot_IK.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R/foot.R_end
+        weight: 1
+      - path: troll/base/hand_IK.L
+        weight: 1
+      - path: troll/base/hand_IK.L/hand_IK.L_end
+        weight: 1
+      - path: troll/base/hand_IK.R
+        weight: 1
+      - path: troll/base/hand_IK.R/hand_IK.R_end
+        weight: 1
+      - path: troll/base/hips
+        weight: 1
+      - path: troll/base/hips/spine
+        weight: 1
+      - path: troll/base/hips/spine/chest
+        weight: 1
+      - path: troll/base/hips/spine/chest/head
+        weight: 1
+      - path: troll/base/hips/spine/chest/head/head_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.02.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R/f_ring.02.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon/weapon_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L/upper_armor.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R/upper_armor.R_end
+        weight: 1
+      - path: troll/base/hips/thigh.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L/shin.L_end
+        weight: 1
+      - path: troll/base/hips/thigh.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R/shin.R_end
+        weight: 1
+      - path: troll/base/knee.L
+        weight: 1
+      - path: troll/base/knee.L/knee.L_end
+        weight: 1
+      - path: troll/base/knee.R
+        weight: 1
+      - path: troll/base/knee.R/knee.R_end
+        weight: 1
+      - path: Ttoll
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: cast
+      takeName: troll|trollAction
+      internalID: 0
+      firstFrame: 1100
+      lastFrame: 1200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone
+        weight: 1
+      - path: troll
+        weight: 1
+      - path: troll/base
+        weight: 1
+      - path: troll/base/Elbow.L
+        weight: 1
+      - path: troll/base/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: troll/base/Elbow.R
+        weight: 1
+      - path: troll/base/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: troll/base/foot_IK.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L/foot.L_end
+        weight: 1
+      - path: troll/base/foot_IK.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R/foot.R_end
+        weight: 1
+      - path: troll/base/hand_IK.L
+        weight: 1
+      - path: troll/base/hand_IK.L/hand_IK.L_end
+        weight: 1
+      - path: troll/base/hand_IK.R
+        weight: 1
+      - path: troll/base/hand_IK.R/hand_IK.R_end
+        weight: 1
+      - path: troll/base/hips
+        weight: 1
+      - path: troll/base/hips/spine
+        weight: 1
+      - path: troll/base/hips/spine/chest
+        weight: 1
+      - path: troll/base/hips/spine/chest/head
+        weight: 1
+      - path: troll/base/hips/spine/chest/head/head_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.02.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R/f_ring.02.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon/weapon_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L/upper_armor.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R/upper_armor.R_end
+        weight: 1
+      - path: troll/base/hips/thigh.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L/shin.L_end
+        weight: 1
+      - path: troll/base/hips/thigh.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R/shin.R_end
+        weight: 1
+      - path: troll/base/knee.L
+        weight: 1
+      - path: troll/base/knee.L/knee.L_end
+        weight: 1
+      - path: troll/base/knee.R
+        weight: 1
+      - path: troll/base/knee.R/knee.R_end
+        weight: 1
+      - path: Ttoll
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: defence
+      takeName: troll|trollAction
+      internalID: 0
+      firstFrame: 1300
+      lastFrame: 1350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone
+        weight: 1
+      - path: troll
+        weight: 1
+      - path: troll/base
+        weight: 1
+      - path: troll/base/Elbow.L
+        weight: 1
+      - path: troll/base/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: troll/base/Elbow.R
+        weight: 1
+      - path: troll/base/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: troll/base/foot_IK.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L/foot.L_end
+        weight: 1
+      - path: troll/base/foot_IK.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R/foot.R_end
+        weight: 1
+      - path: troll/base/hand_IK.L
+        weight: 1
+      - path: troll/base/hand_IK.L/hand_IK.L_end
+        weight: 1
+      - path: troll/base/hand_IK.R
+        weight: 1
+      - path: troll/base/hand_IK.R/hand_IK.R_end
+        weight: 1
+      - path: troll/base/hips
+        weight: 1
+      - path: troll/base/hips/spine
+        weight: 1
+      - path: troll/base/hips/spine/chest
+        weight: 1
+      - path: troll/base/hips/spine/chest/head
+        weight: 1
+      - path: troll/base/hips/spine/chest/head/head_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.02.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R/f_ring.02.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon/weapon_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L/upper_armor.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R/upper_armor.R_end
+        weight: 1
+      - path: troll/base/hips/thigh.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L/shin.L_end
+        weight: 1
+      - path: troll/base/hips/thigh.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R/shin.R_end
+        weight: 1
+      - path: troll/base/knee.L
+        weight: 1
+      - path: troll/base/knee.L/knee.L_end
+        weight: 1
+      - path: troll/base/knee.R
+        weight: 1
+      - path: troll/base/knee.R/knee.R_end
+        weight: 1
+      - path: Ttoll
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hit 1
+      takeName: troll|trollAction
+      internalID: 0
+      firstFrame: 1400
+      lastFrame: 1410
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone
+        weight: 1
+      - path: troll
+        weight: 1
+      - path: troll/base
+        weight: 1
+      - path: troll/base/Elbow.L
+        weight: 1
+      - path: troll/base/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: troll/base/Elbow.R
+        weight: 1
+      - path: troll/base/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: troll/base/foot_IK.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L/foot.L_end
+        weight: 1
+      - path: troll/base/foot_IK.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R/foot.R_end
+        weight: 1
+      - path: troll/base/hand_IK.L
+        weight: 1
+      - path: troll/base/hand_IK.L/hand_IK.L_end
+        weight: 1
+      - path: troll/base/hand_IK.R
+        weight: 1
+      - path: troll/base/hand_IK.R/hand_IK.R_end
+        weight: 1
+      - path: troll/base/hips
+        weight: 1
+      - path: troll/base/hips/spine
+        weight: 1
+      - path: troll/base/hips/spine/chest
+        weight: 1
+      - path: troll/base/hips/spine/chest/head
+        weight: 1
+      - path: troll/base/hips/spine/chest/head/head_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.02.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R/f_ring.02.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon/weapon_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L/upper_armor.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R/upper_armor.R_end
+        weight: 1
+      - path: troll/base/hips/thigh.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L/shin.L_end
+        weight: 1
+      - path: troll/base/hips/thigh.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R/shin.R_end
+        weight: 1
+      - path: troll/base/knee.L
+        weight: 1
+      - path: troll/base/knee.L/knee.L_end
+        weight: 1
+      - path: troll/base/knee.R
+        weight: 1
+      - path: troll/base/knee.R/knee.R_end
+        weight: 1
+      - path: Ttoll
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hit 2
+      takeName: troll|trollAction
+      internalID: 0
+      firstFrame: 1500
+      lastFrame: 1510
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone
+        weight: 1
+      - path: troll
+        weight: 1
+      - path: troll/base
+        weight: 1
+      - path: troll/base/Elbow.L
+        weight: 1
+      - path: troll/base/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: troll/base/Elbow.R
+        weight: 1
+      - path: troll/base/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: troll/base/foot_IK.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L/foot.L_end
+        weight: 1
+      - path: troll/base/foot_IK.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R/foot.R_end
+        weight: 1
+      - path: troll/base/hand_IK.L
+        weight: 1
+      - path: troll/base/hand_IK.L/hand_IK.L_end
+        weight: 1
+      - path: troll/base/hand_IK.R
+        weight: 1
+      - path: troll/base/hand_IK.R/hand_IK.R_end
+        weight: 1
+      - path: troll/base/hips
+        weight: 1
+      - path: troll/base/hips/spine
+        weight: 1
+      - path: troll/base/hips/spine/chest
+        weight: 1
+      - path: troll/base/hips/spine/chest/head
+        weight: 1
+      - path: troll/base/hips/spine/chest/head/head_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.02.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R/f_ring.02.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon/weapon_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L/upper_armor.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R/upper_armor.R_end
+        weight: 1
+      - path: troll/base/hips/thigh.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L/shin.L_end
+        weight: 1
+      - path: troll/base/hips/thigh.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R/shin.R_end
+        weight: 1
+      - path: troll/base/knee.L
+        weight: 1
+      - path: troll/base/knee.L/knee.L_end
+        weight: 1
+      - path: troll/base/knee.R
+        weight: 1
+      - path: troll/base/knee.R/knee.R_end
+        weight: 1
+      - path: Ttoll
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death 1
+      takeName: troll|trollAction
+      internalID: 0
+      firstFrame: 1600
+      lastFrame: 1635
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone
+        weight: 1
+      - path: troll
+        weight: 1
+      - path: troll/base
+        weight: 1
+      - path: troll/base/Elbow.L
+        weight: 1
+      - path: troll/base/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: troll/base/Elbow.R
+        weight: 1
+      - path: troll/base/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: troll/base/foot_IK.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L/foot.L_end
+        weight: 1
+      - path: troll/base/foot_IK.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R/foot.R_end
+        weight: 1
+      - path: troll/base/hand_IK.L
+        weight: 1
+      - path: troll/base/hand_IK.L/hand_IK.L_end
+        weight: 1
+      - path: troll/base/hand_IK.R
+        weight: 1
+      - path: troll/base/hand_IK.R/hand_IK.R_end
+        weight: 1
+      - path: troll/base/hips
+        weight: 1
+      - path: troll/base/hips/spine
+        weight: 1
+      - path: troll/base/hips/spine/chest
+        weight: 1
+      - path: troll/base/hips/spine/chest/head
+        weight: 1
+      - path: troll/base/hips/spine/chest/head/head_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.02.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R/f_ring.02.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon/weapon_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L/upper_armor.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R/upper_armor.R_end
+        weight: 1
+      - path: troll/base/hips/thigh.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L/shin.L_end
+        weight: 1
+      - path: troll/base/hips/thigh.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R/shin.R_end
+        weight: 1
+      - path: troll/base/knee.L
+        weight: 1
+      - path: troll/base/knee.L/knee.L_end
+        weight: 1
+      - path: troll/base/knee.R
+        weight: 1
+      - path: troll/base/knee.R/knee.R_end
+        weight: 1
+      - path: Ttoll
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death 2
+      takeName: troll|trollAction
+      internalID: 0
+      firstFrame: 1700
+      lastFrame: 1740
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone
+        weight: 1
+      - path: troll
+        weight: 1
+      - path: troll/base
+        weight: 1
+      - path: troll/base/Elbow.L
+        weight: 1
+      - path: troll/base/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: troll/base/Elbow.R
+        weight: 1
+      - path: troll/base/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: troll/base/foot_IK.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L/foot.L_end
+        weight: 1
+      - path: troll/base/foot_IK.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R/foot.R_end
+        weight: 1
+      - path: troll/base/hand_IK.L
+        weight: 1
+      - path: troll/base/hand_IK.L/hand_IK.L_end
+        weight: 1
+      - path: troll/base/hand_IK.R
+        weight: 1
+      - path: troll/base/hand_IK.R/hand_IK.R_end
+        weight: 1
+      - path: troll/base/hips
+        weight: 1
+      - path: troll/base/hips/spine
+        weight: 1
+      - path: troll/base/hips/spine/chest
+        weight: 1
+      - path: troll/base/hips/spine/chest/head
+        weight: 1
+      - path: troll/base/hips/spine/chest/head/head_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.02.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R/f_ring.02.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon/weapon_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L/upper_armor.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R/upper_armor.R_end
+        weight: 1
+      - path: troll/base/hips/thigh.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L/shin.L_end
+        weight: 1
+      - path: troll/base/hips/thigh.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R/shin.R_end
+        weight: 1
+      - path: troll/base/knee.L
+        weight: 1
+      - path: troll/base/knee.L/knee.L_end
+        weight: 1
+      - path: troll/base/knee.R
+        weight: 1
+      - path: troll/base/knee.R/knee.R_end
+        weight: 1
+      - path: Ttoll
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump
+      takeName: troll|trollAction
+      internalID: 0
+      firstFrame: 1800
+      lastFrame: 1825
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone
+        weight: 1
+      - path: troll
+        weight: 1
+      - path: troll/base
+        weight: 1
+      - path: troll/base/Elbow.L
+        weight: 1
+      - path: troll/base/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: troll/base/Elbow.R
+        weight: 1
+      - path: troll/base/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: troll/base/foot_IK.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L/foot.L_end
+        weight: 1
+      - path: troll/base/foot_IK.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R/foot.R_end
+        weight: 1
+      - path: troll/base/hand_IK.L
+        weight: 1
+      - path: troll/base/hand_IK.L/hand_IK.L_end
+        weight: 1
+      - path: troll/base/hand_IK.R
+        weight: 1
+      - path: troll/base/hand_IK.R/hand_IK.R_end
+        weight: 1
+      - path: troll/base/hips
+        weight: 1
+      - path: troll/base/hips/spine
+        weight: 1
+      - path: troll/base/hips/spine/chest
+        weight: 1
+      - path: troll/base/hips/spine/chest/head
+        weight: 1
+      - path: troll/base/hips/spine/chest/head/head_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.02.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R/f_ring.02.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon/weapon_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L/upper_armor.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R/upper_armor.R_end
+        weight: 1
+      - path: troll/base/hips/thigh.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L/shin.L_end
+        weight: 1
+      - path: troll/base/hips/thigh.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R/shin.R_end
+        weight: 1
+      - path: troll/base/knee.L
+        weight: 1
+      - path: troll/base/knee.L/knee.L_end
+        weight: 1
+      - path: troll/base/knee.R
+        weight: 1
+      - path: troll/base/knee.R/knee.R_end
+        weight: 1
+      - path: Ttoll
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: victory
+      takeName: troll|trollAction
+      internalID: 0
+      firstFrame: 1900
+      lastFrame: 1950
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bone
+        weight: 1
+      - path: troll
+        weight: 1
+      - path: troll/base
+        weight: 1
+      - path: troll/base/Elbow.L
+        weight: 1
+      - path: troll/base/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: troll/base/Elbow.R
+        weight: 1
+      - path: troll/base/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: troll/base/foot_IK.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L
+        weight: 1
+      - path: troll/base/foot_IK.L/foot.L/foot.L_end
+        weight: 1
+      - path: troll/base/foot_IK.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R
+        weight: 1
+      - path: troll/base/foot_IK.R/foot.R/foot.R_end
+        weight: 1
+      - path: troll/base/hand_IK.L
+        weight: 1
+      - path: troll/base/hand_IK.L/hand_IK.L_end
+        weight: 1
+      - path: troll/base/hand_IK.R
+        weight: 1
+      - path: troll/base/hand_IK.R/hand_IK.R_end
+        weight: 1
+      - path: troll/base/hips
+        weight: 1
+      - path: troll/base/hips/spine
+        weight: 1
+      - path: troll/base/hips/spine/chest
+        weight: 1
+      - path: troll/base/hips/spine/chest/head
+        weight: 1
+      - path: troll/base/hips/spine/chest/head/head_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.02.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.L/forearm.L/hand.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/palm.03.R/f_ring.01.R/f_ring.02.R/f_ring.02.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_arm.R/forearm.R/hand.R/weapon/weapon_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.L/upper_armor.L_end
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R
+        weight: 1
+      - path: troll/base/hips/spine/chest/upper_armor.R/upper_armor.R_end
+        weight: 1
+      - path: troll/base/hips/thigh.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L
+        weight: 1
+      - path: troll/base/hips/thigh.L/shin.L/shin.L_end
+        weight: 1
+      - path: troll/base/hips/thigh.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R
+        weight: 1
+      - path: troll/base/hips/thigh.R/shin.R/shin.R_end
+        weight: 1
+      - path: troll/base/knee.L
+        weight: 1
+      - path: troll/base/knee.L/knee.L_end
+        weight: 1
+      - path: troll/base/knee.R
+        weight: 1
+      - path: troll/base/knee.R/knee.R_end
+        weight: 1
+      - path: Ttoll
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
