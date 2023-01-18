@@ -38,5 +38,5 @@ El diseño del menu, winner, game over, pause, barras de vida del jugador y enem
 Aquí se puede encontrar el juego descargable junto con la historia, el gameplay, instrucciones y demás [<br>Página Itch<br>](https://andreamejia.itch.io/mystical-world)
 
 ## :computer: Autores :computer:
-| [<img src="https://user-images.githubusercontent.com/104279565/209356707-1a7b8815-ff11-42dd-bdc2-8bc90fb27ea9.png" width=130><br>Andrea Mejia<br><sub>Game Designer / UI</sub>](https://github.com/AndreaM-95) | [<img src="https://user-images.githubusercontent.com/104279565/209356722-ee4d66ea-6d1c-4bcc-a20e-77fecefd1f23.png" width=130><br>Jhon Mario Aza<br><sub>Game Designer / Audio</sub>](https://github.com/AIID3N)|  [<img src="https://user-images.githubusercontent.com/104279565/209356722-ee4d66ea-6d1c-4bcc-a20e-77fecefd1f23.png" width=130><br>Arin Pineda<br><sub>Game Programmer</sub>](https://github.com/ArinPineda) |
+| [<img src="https://user-images.githubusercontent.com/104279565/209356707-1a7b8815-ff11-42dd-bdc2-8bc90fb27ea9.png" width=130><br>Andrea Mejia<br><sub>Game Designer / UI</sub>](https://github.com/AndreaM-95) | [<img src="https://user-images.githubusercontent.com/104279565/209356722-ee4d66ea-6d1c-4bcc-a20e-77fecefd1f23.png" width=130><br>Jhon Mario Aza<br><sub>Game Designer / Audio</sub>](https://github.com/AIID3N)||
 | :---: | :---: | :---: |
