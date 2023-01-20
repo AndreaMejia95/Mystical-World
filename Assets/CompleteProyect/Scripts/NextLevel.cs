@@ -21,10 +21,10 @@ public class NextLevel : MonoBehaviour
     switch (sceneCurrent){
 
         case "Level1":
-        SceneManager.LoadScene("Level2");
+        SceneManager.LoadScene("Task2");
         break;
         case "Level2":
-        SceneManager.LoadScene("Level3");
+        SceneManager.LoadScene("Task3");
         break;
               
     }

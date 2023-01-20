@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 463505834053085801}
   m_Layer: 0
   m_Name: AudioExplosionFire
-  m_TagString: Untagged
+  m_TagString: Enviroment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52,8 +52,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 100
   DopplerLevel: 0.44
-  MinDistance: 1.980198
-  MaxDistance: 2
+  MinDistance: 3.7
+  MaxDistance: 14.9
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0

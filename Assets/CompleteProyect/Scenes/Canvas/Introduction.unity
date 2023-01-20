@@ -293,7 +293,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level1
+          m_StringArgument: Task1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &185658308
@@ -518,7 +518,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level1
+          m_StringArgument: Task1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &350610411
@@ -1735,7 +1735,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1106450930
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1781,7 +1781,7 @@ MonoBehaviour:
     leaders of the Centaur, Giant and Minotaur races decided to reveal themselves
     to the humans and take possession of the whole earth. They found that every 1000
     years a representative of Olympus was born with the ability to dominate any being
-    with his melodious voice.
+    with his melodious voice..
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9254f714203105244a74065ccfcba797, type: 2}
   m_sharedMaterial: {fileID: -5601697617756815445, guid: 9254f714203105244a74065ccfcba797,
@@ -2668,7 +2668,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1303489894
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3255,7 +3255,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level1
+          m_StringArgument: Task1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1553930493

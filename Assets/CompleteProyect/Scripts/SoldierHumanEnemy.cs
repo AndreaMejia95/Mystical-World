@@ -97,7 +97,7 @@ public class SoldierHumanEnemy : MonoBehaviour
 
                 animatorEnemy.SetInteger("NumState",28);
 
-               Destroy(gameObject,4f);
+                Destroy(gameObject,2f);
             }
         }
     }

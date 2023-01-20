@@ -5,6 +5,17 @@ TagManager:
   serializedVersion: 2
   tags:
   - Shootable
+  - ElixirGrab
+  - Enemy
+  - BowGrab
+  - Sword
+  - Arrow
+  - Fire
+  - SwordGrab
+  - BadWall
+  - Enviroment
+  - MusicLev
+  - Character
   layers:
   - Default
   - TransparentFX

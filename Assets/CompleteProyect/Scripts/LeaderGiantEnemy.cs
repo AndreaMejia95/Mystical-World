@@ -91,13 +91,12 @@ float dist = Vector3.Distance(player.position, transform.position);
             lifeEnemy.fillAmount -= 10f * Time.deltaTime;
             if (lifeEnemy.fillAmount <= 0)
             {
-               IsDead = true;
+                IsDead = true;
                 animatorEnemy.SetTrigger("death");
                 IsAtackPlayer = false;
                 StopCoroutine("AtackPlayer");
-              //  Destroy(gameObject,3f);
+                Destroy(gameObject,3f);
                 doorObject.GetComponent<BoxCollider>().enabled = true;
-
             }
 
         }
