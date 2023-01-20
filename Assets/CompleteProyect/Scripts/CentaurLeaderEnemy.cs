@@ -14,6 +14,7 @@ public class CentaurLeaderEnemy : MonoBehaviour
     public GameObject hammerEnemy;
     public Image lifeEnemy;
     public GameObject doorObject;
+    public GameObject textDoor;
     public bool IsDead = false;
 
     private void Start()
@@ -79,6 +80,7 @@ public class CentaurLeaderEnemy : MonoBehaviour
                 animatorEnemy.SetInteger("NumState", 28);
                 gameObject.GetComponent<NavMeshAgent>().enabled = false;
                 doorObject.GetComponent<BoxCollider>().enabled = true;
+                textDoor.SetActive(true);
               
               //  Destroy(gameObject, 3f);
             }

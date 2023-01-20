@@ -11,7 +11,8 @@ public class LeaderGiantEnemy : MonoBehaviour
     public Transform cross;
     public Image lifeEnemy;
     public Animator animatorEnemy;
-   public GameObject doorObject;
+    public GameObject doorObject;
+    public GameObject textDoor;
     public bool IsAtackPlayer= true;
     public bool IsDead = false;
 
@@ -81,9 +82,6 @@ float dist = Vector3.Distance(player.position, transform.position);
 
     }
 
-
-   
-
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.CompareTag("Sword"))
@@ -118,7 +116,7 @@ float dist = Vector3.Distance(player.position, transform.position);
 
                 animatorEnemy.SetTrigger("death");
                 doorObject.GetComponent<BoxCollider>().enabled = true;
-
+                textDoor.SetActive(true);
              //   Destroy(gameObject,3f);
             }
         }
