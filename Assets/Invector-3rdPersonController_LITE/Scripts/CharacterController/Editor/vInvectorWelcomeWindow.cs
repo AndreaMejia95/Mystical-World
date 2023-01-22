@@ -41,7 +41,7 @@ namespace Invector.vCharacterController
         /// </summary>
         public ToolBar[] toolBars = new ToolBar[]
         {
-            new ToolBar("Welcome",FirstRunPageContent),
+            new ToolBar("First Run",FirstRunPageContent),
             new ToolBar("Getting Started",GettingStartedPageContent),
             #if INVECTOR_BASIC
             new ToolBar("Add-ons",AddonsPageContent),
@@ -50,11 +50,15 @@ namespace Invector.vCharacterController
         };
         #endregion
 
-        public const string _thirdPersonVersion = "2.0";        
+        public const string _thirdPersonVersion = "2.5.0";
+        public const string _fsmAIVersion = "1.1.0";
 
-        public const string _basicPath = "https://assetstore.unity.com/packages/templates/systems/third-person-controller-basic-locomotion-template-59332";
-        public const string _meleePath = "https://assetstore.unity.com/packages/templates/systems/third-person-controller-melee-combat-template-44227";
-        public const string _shooterPath = "https://assetstore.unity.com/packages/templates/systems/third-person-controller-shooter-template-84583";        
+        public const string _projectSettingsPath = "Assets/Invector-3rdPersonController/Basic Locomotion/Resources/vProjectSettings.unitypackage";
+        public const string _mobilePackagePath = "Assets/Invector-3rdPersonController/Basic Locomotion/Resources/vMobileAddon.unitypackage";
+        public const string _topDownPackagePath = "Assets/Invector-3rdPersonController/Basic Locomotion/Resources/vTopDownAddon.unitypackage";
+        public const string _pointAndClickPackagePath = "Assets/Invector-3rdPersonController/Basic Locomotion/Resources/vPointClickAddon.unitypackage";
+        public const string _platformPackagePath = "Assets/Invector-3rdPersonController/Basic Locomotion/Resources/v2DPlatformAddon.unitypackage";
+        public const string _vMansionPath = "Assets/Invector-3rdPersonController/Basic Locomotion/Resources/vMansionAddon.unitypackage";
 
         public static Texture2D invectorBanner = null;
         public static Texture2D mobileIcon = null;
@@ -93,7 +97,7 @@ namespace Invector.vCharacterController
         void InitStyle()
         {
             if (!skin) skin = Resources.Load("welcomeWindowSkin") as GUISkin;
-            
+
             invectorBanner = (Texture2D)Resources.Load("invectorBanner", typeof(Texture2D));
             mobileIcon = (Texture2D)Resources.Load("mobileIcon", typeof(Texture2D));
             topdownIcon = (Texture2D)Resources.Load("topdownIcon", typeof(Texture2D));
@@ -111,7 +115,6 @@ namespace Invector.vCharacterController
         public void OnGUI()
         {
             GUI.skin = skin;
-            
             DrawHeader();
             DrawMenuButtons();
             DrawPageContent();
@@ -155,36 +158,65 @@ namespace Invector.vCharacterController
 
             GUILayout.EndHorizontal();
         }
-        
+
+        private static void ImportPackage(string package)
+        {
+            try
+            {
+                AssetDatabase.ImportPackage(package, true);
+            }
+            catch (Exception)
+            {
+                Debug.LogError("Failed to import package: " + package);
+                throw;
+            }
+        }
+
         #region Static ToolBars
 
         public static void FirstRunPageContent()
         {
-            GUILayout.BeginVertical("window");           
+            GUILayout.BeginVertical("window");
 
-            GUILayout.Label(" ", GUI.skin.GetStyle("TemplatesPromo"), GUILayout.Width(586));
+            EditorGUILayout.HelpBox("This Template requires a custom <b>ProjectSettings</b> which includes: <i>InputManager, Layers, Tags and a PhysicsManager.</i>" +                
+                " It's recommended to import the Template into a New Empty Project, using it as a base to build your game. \n\n * You can <b>UNCHECK the InputManager</b> when using only the <b>FSM AI</b>", MessageType.Warning, true);
 
-            EditorGUIUtility.AddCursorRect(new Rect(0, 0, 600, 320), MouseCursor.Link);
-            
-            GUILayout.BeginVertical();
-            GUILayout.Space(-320);
-            GUILayout.BeginHorizontal();
-            GUILayout.Space(5);
+            if (GUILayout.Button(">>> Import Project Settings <<<"))
+            {
+                AssetDatabase.ImportPackage(_projectSettingsPath, true);
+            }
 
-            if (GUILayout.Button("LOCOMOTION", GUI.skin.GetStyle("CustomButton"), GUILayout.Width(188)))
+            GUILayout.Space(10);
+
+#if INVECTOR_BASIC
+            EditorGUILayout.HelpBox("Third Person Installed Version: " + _thirdPersonVersion, MessageType.Info);
+#endif
+#if INVECTOR_BASIC
+            if (GUILayout.Button("Third Person Documentation"))
+            {
+                Application.OpenURL("https://www.invector.xyz/thirdpersondocumentation");
+            }
+#endif
+
+#if INVECTOR_AI_TEMPLATE
+            EditorGUILayout.HelpBox("FSM AI Installed Version: " + _fsmAIVersion, MessageType.Info);
+#endif
+
+#if INVECTOR_AI_TEMPLATE
+            if (GUILayout.Button("FSM AI Documentation"))
+            {
+                Application.OpenURL("https://www.invector.xyz/aidocumentation");
+            }
+#endif
+
+            GUILayout.BeginVertical("box");
+            if (GUILayout.Button("Youtube Tutorials"))
             {                
-                Application.OpenURL(_basicPath);
-            }
-            if (GUILayout.Button("MELEE COMBAT", GUI.skin.GetStyle("CustomButton"), GUILayout.Width(190)))
-            {
-                Application.OpenURL(_meleePath);
-            }
-            if (GUILayout.Button("SHOOTER", GUI.skin.GetStyle("CustomButton"), GUILayout.Width(189)))
-            {
-                Application.OpenURL(_shooterPath);
-            }
-            GUILayout.EndHorizontal();
-            GUILayout.EndVertical();
+                Application.OpenURL("https://www.youtube.com/channel/UCSEoY03WFn7D0m1uMi6DxZQ/videos");
+            }            
+            GUILayout.EndVertical();        
+
+            GUILayout.FlexibleSpace();
             GUILayout.EndVertical();
         }
 
@@ -192,18 +224,18 @@ namespace Invector.vCharacterController
         {
             GUILayout.BeginVertical("window");
             scrollPosition = GUILayout.BeginScrollView(
-            scrollPosition, GUILayout.Width(580), GUILayout.Height(316));
+            scrollPosition, GUILayout.Width(570), GUILayout.Height(316));
 
-            DrawNewAddon(mobileIcon, "Mobile Examples", "Simple mobile example, basic, melee and shooter scenes included", "Purchase Full Version", _basicPath, true);
-            DrawNewAddon(topdownIcon, "Topdown Examples", "Topdown controller basic, melee and shooter scenes included", "Purchase Full Version", _basicPath, true);
-            DrawNewAddon(pointAndClickIcon, "Point&Click Examples", "Similar to Diablo gameplay, basic and melee scenes included", "Purchase Full Version", _basicPath, true);
-            DrawNewAddon(platformIcon, "2.5D Examples", "2.5D with corner transition, basic, melee and shooter scenes included", "Purchase Full Version", _basicPath, true);
-            DrawNewAddon(vMansionIcon, "Mansion CameraMode Examples", "Cool example of how to use the CameraMode to create a CCTV or oldschool gameplay style", "Purchase Full Version", _basicPath, false);
-            DrawNewAddon(climbAddon, "FreeClimb Add-on", "Climb on any surface such as walls or cliffs. \n\n *Full Locomotion Template Required", "Go to AssetStore", "https://assetstore.unity.com/packages/tools/utilities/third-person-freeclimb-add-on-105187", true);
-            DrawNewAddon(swimmingAddon, "Swimming Add-on", "Swim on the surface or dive into the water. \n\n *Full Locomotion Template Required", "Go to AssetStore", "https://assetstore.unity.com/packages/tools/utilities/third-person-swimming-add-on-97418", true);
-            DrawNewAddon(ziplineAddon, "Zipline Add-on", "Zipline through pre located ropes. \n\n *Full Locomotion Template Required", "Go to AssetStore", "https://assetstore.unity.com/packages/tools/utilities/third-person-zipline-add-on-97410", true);
-            DrawNewAddon(stealthKillAddon, "Stealth Kill Add-on (Free!)", "Example using the GenericAction feature, animations included. \n\n *FSM AI & ThirdPerson Templates Required", "Go to AssetStore", "https://assetstore.unity.com/packages/templates/systems/invector-stealth-kill-add-on-135495", true);
-            DrawNewAddon(builderAddon, "Builder Add-on", "Collect Items and Build them anywhere in your scene to create traps or interactables! \n\n *Shooter Template Required", "Go to AssetStore", "https://assetstore.unity.com/packages/tools/utilities/third-person-builder-add-on-152689", true);
+            DrawNewAddon(mobileIcon, "Mobile Examples", "Simple mobile example, basic, melee and shooter scenes included", "Import Package", _mobilePackagePath, false);
+            DrawNewAddon(topdownIcon, "Topdown Examples", "Topdown controller basic, melee and shooter scenes included", "Import Package", _topDownPackagePath, false);
+            DrawNewAddon(pointAndClickIcon, "Point&Click Examples", "Similar to Diablo gameplay, basic and melee scenes included", "Import Package", _pointAndClickPackagePath, false);
+            DrawNewAddon(platformIcon, "2.5D Examples", "2.5D with corner transition, basic, melee and shooter scenes included", "Import Package", _platformPackagePath, false);
+            DrawNewAddon(vMansionIcon, "Mansion CameraMode Examples", "Cool example of how to use the CameraMode to create a CCTV or oldschool gameplay style", "Import Package", _vMansionPath, false);
+            DrawNewAddon(climbAddon, "FreeClimb Add-on", "Climb on any surface such as walls or cliffs.", "Go to AssetStore", "https://assetstore.unity.com/packages/tools/utilities/third-person-freeclimb-add-on-105187", true);
+            DrawNewAddon(swimmingAddon, "Swimming Add-on", "Swim on the surface or dive into the water", "Go to AssetStore", "https://assetstore.unity.com/packages/tools/utilities/third-person-swimming-add-on-97418", true);
+            DrawNewAddon(ziplineAddon, "Zipline Add-on", "Zipline through pre located ropes", "Go to AssetStore", "https://assetstore.unity.com/packages/tools/utilities/third-person-zipline-add-on-97410", true);
+            DrawNewAddon(stealthKillAddon, "Stealth Kill Add-on (Free!)", "Example using the GenericAction feature, animations included.", "Go to AssetStore", "https://assetstore.unity.com/packages/templates/systems/invector-stealth-kill-add-on-135495", true);
+            DrawNewAddon(builderAddon, "Builder Add-on", "Collect Items and Build them anywhere in your scene to create traps or interactables!", "Go to AssetStore", "https://assetstore.unity.com/packages/tools/utilities/third-person-builder-add-on-152689", true);
 
             GUILayout.EndScrollView();
             GUILayout.FlexibleSpace();
@@ -237,7 +269,7 @@ namespace Invector.vCharacterController
             GUILayout.BeginVertical("window");            
 
             GUILayout.BeginHorizontal("box");
-            GUILayout.Label("<b>1</b>- Make sure your Character FBX is using the AnimationType: 'Humanoid' in the Rig tab, so you can retarget the default animations from our Animator to your new Character.");
+            GUILayout.Label("<b>1</b>- First you need to Import our <b>ProjectSettings</b>, otherwise you will get errors about missing Inputs and Layers. Then create a new folder for your Project and put your files there, don't use the Invector Folder to avoid losing files when updating to a new version.");
             GUILayout.EndHorizontal();
             GUILayout.Space(6);
 
@@ -269,7 +301,7 @@ namespace Invector.vCharacterController
             if (GUILayout.Button("Open Forum"))
             {
                 Application.OpenURL("http://invector.proboards.com/");
-            }
+            }            
             GUILayout.EndVertical();
          
 

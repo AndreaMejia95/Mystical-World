@@ -11,8 +11,9 @@ namespace Invector.vCharacterController
         GameObject charObj;
         Animator charAnimator;
         public  RuntimeAnimatorController controller;
+        public  vThirdPersonCameraListData cameraListData;
         public GameObject hud;
-        Vector2 rect = new Vector2(500, 540);
+        Vector2 rect = new Vector2(500, 630);
         Vector2 scrool;
         Editor humanoidpreview;
         Texture2D m_Logo;
@@ -47,7 +48,6 @@ namespace Invector.vCharacterController
             if (!skin) skin = Resources.Load("vSkin") as GUISkin;
             GUI.skin = skin;
 
-            this.maxSize = rect;
             this.minSize = rect;
             this.titleContent = new GUIContent("Character", null, "Third Person Character Creator");
             GUILayout.BeginVertical("Character Creator Window", "window");
@@ -72,9 +72,22 @@ namespace Invector.vCharacterController
             if (charObj != null && charObj.GetComponent<vThirdPersonController>() != null)
                 EditorGUILayout.HelpBox("This gameObject already contains the component vThirdPersonController", MessageType.Warning);
 
-            controller = EditorGUILayout.ObjectField("Animator Controller: ", controller, typeof(RuntimeAnimatorController), false) as RuntimeAnimatorController;            
-            
-            GUILayout.EndVertical();          
+            controller = EditorGUILayout.ObjectField("Animator Controller: ", controller, typeof(RuntimeAnimatorController), false) as RuntimeAnimatorController;
+            cameraListData = EditorGUILayout.ObjectField("Camera List Data: ", cameraListData, typeof(vThirdPersonCameraListData), false) as vThirdPersonCameraListData;
+            hud = EditorGUILayout.ObjectField("Hud Controller: ", hud, typeof(GameObject), false) as GameObject;
+            if (hud != null && hud.GetComponent<vHUDController>() == null)
+            {
+                EditorGUILayout.HelpBox("This object does not contain a vHUDController", MessageType.Warning);
+            }
+            GUILayout.EndVertical();
+
+            GUILayout.BeginHorizontal("box");
+            EditorGUILayout.LabelField("Need to know how it works?");
+            if (GUILayout.Button("Video Tutorial"))
+            {
+                Application.OpenURL("https://www.youtube.com/watch?v=KQ5xha36tfE&index=1&list=PLvgXGzhT_qehtuCYl2oyL-LrWoT7fhg9d");
+            }
+            GUILayout.EndHorizontal();
 
             if (charObj)
             {
@@ -132,6 +145,7 @@ namespace Invector.vCharacterController
             _ThirdPerson.name = "vBasicController_" + charObj.gameObject.name;
             _ThirdPerson.AddComponent<vThirdPersonController>();
             _ThirdPerson.AddComponent<vThirdPersonInput>();
+            _ThirdPerson.AddComponent<vActions.vGenericAction>();
 
             var rigidbody = _ThirdPerson.AddComponent<Rigidbody>();
             var collider = _ThirdPerson.AddComponent<CapsuleCollider>();
@@ -154,12 +168,37 @@ namespace Invector.vCharacterController
                 camera.GetComponent<Camera>().nearClipPlane = 0.03f;
                 camera.gameObject.name = "vThirdPersonCamera";
             }
-            var tpcamera = camera.GetComponent<vThirdPersonCamera>();
+            var tpcamera = camera.GetComponent<vCamera.vThirdPersonCamera>();
 
             if (tpcamera == null)
-                tpcamera = camera.AddComponent<vThirdPersonCamera>();           
+                tpcamera = camera.AddComponent<vCamera.vThirdPersonCamera>();
 
+            // define the camera cursorObject       
+            tpcamera.target = _ThirdPerson.transform;
+            if (cameraListData != null)
+            {
+                tpcamera.CameraStateList = cameraListData;
+            }
+
+            GameObject gC = null;
+            var gameController = FindObjectOfType<vGameController>();
+            if (gameController == null)
+            {
+                gC = new GameObject("vGameController");
+                gC.AddComponent<vGameController>();
+            }
+
+            CreateHud();
             _ThirdPerson.tag = "Player";
+
+            var p_layer = LayerMask.NameToLayer("Player");
+            _ThirdPerson.layer = p_layer;
+
+            foreach (Transform t in _ThirdPerson.transform.GetComponentsInChildren<Transform>())
+                t.gameObject.layer = p_layer;
+
+            var s_layer = LayerMask.NameToLayer("StopMove");
+            _ThirdPerson.GetComponent<vThirdPersonMotor>().stopMoveLayer = LayerMask.GetMask(LayerMask.LayerToName(s_layer));
 
             // rigidbody
             rigidbody.useGravity = true;
@@ -189,7 +228,60 @@ namespace Invector.vCharacterController
             var foot = animator.GetBoneTransform(HumanBodyBones.LeftFoot);
             var hips = animator.GetBoneTransform(HumanBodyBones.Hips);
             return (float)System.Math.Round(Vector3.Distance(foot.position, hips.position) * 2f, 2);
-        }       
+        }
+
+        /// <summary>
+        /// Return Hud Object
+        /// </summary>
+        /// <returns></returns>
+        vHUDController CreateHud()
+        {
+            var _hud = FindObjectOfType<vHUDController>();
+            if (_hud) return _hud;
+            if (hud == null) return null;
+            var canvas = FindObjectOfType<Canvas>();
+            if (FindObjectOfType<EventSystem>() == null)
+            {
+#if UNITY_5_3_OR_NEWER
+                new GameObject("EventSystem", typeof(EventSystem), typeof(StandaloneInputModule));
+#else
+            new GameObject("EventSystem", typeof(EventSystem), typeof(StandaloneInputModule), typeof(TouchInputModule));
+#endif
+            }
+            if (canvas == null || (canvas != null && !canvas.tag.Equals("PlayerUI")))
+            {
+                var canvasObj = new GameObject("vUI");
+                canvasObj.tag = "PlayerUI";
+                canvas = canvasObj.AddComponent<Canvas>();
+                canvasObj.AddComponent<UnityEngine.UI.CanvasScaler>();
+                canvasObj.AddComponent<UnityEngine.UI.GraphicRaycaster>();
+            }
+            canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+            if (canvas.GetComponent<UnityEngine.UI.CanvasScaler>() != null)
+            {
+                canvas.GetComponent<UnityEngine.UI.CanvasScaler>().uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+                canvas.GetComponent<UnityEngine.UI.CanvasScaler>().screenMatchMode = CanvasScaler.ScreenMatchMode.Expand;
+            }
+            ////Check HUD
+            //RectTransform Hud = canvas.transform.FindChild("HUD") as RectTransform;
+            GameObject hudObject = null;
+            if (_hud == null)
+            {
+                hudObject = Instantiate(hud);
+
+                if (hudObject)
+                    hudObject.GetComponent<RectTransform>().SetParent(canvas.transform);
+                var rect = hudObject.GetComponent<RectTransform>();
+                rect.offsetMax = new Vector2(0, 0);
+
+                hudObject.name = "HUD";
+            }
+            if (hudObject.GetComponent<vHUDController>() == null)
+                hudObject.gameObject.AddComponent<vHUDController>();
+            //HUD Components       
+
+            return hudObject.GetComponent<vHUDController>();
+        }
 
     }
 }

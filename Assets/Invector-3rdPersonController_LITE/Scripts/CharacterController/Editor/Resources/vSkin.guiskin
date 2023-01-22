@@ -472,12 +472,12 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 6d5f66926f86d304eadada78d16964b0, type: 3}
     m_FontSize: 26
     m_FontStyle: 0
-    m_Alignment: 1
+    m_Alignment: 0
     m_WordWrap: 0
     m_RichText: 1
     m_TextClipping: 1
     m_ImagePosition: 0
-    m_ContentOffset: {x: 0, y: 0}
+    m_ContentOffset: {x: 26, y: 2}
     m_FixedWidth: 0
     m_FixedHeight: 0
     m_StretchWidth: 0
@@ -1869,8 +1869,8 @@ MonoBehaviour:
       m_Right: 0
       m_Top: 0
       m_Bottom: 0
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: 1c7a637ebb71f034c97397ef794d1f18, type: 3}
+    m_FontSize: 25
     m_FontStyle: 1
     m_Alignment: 3
     m_WordWrap: 1
