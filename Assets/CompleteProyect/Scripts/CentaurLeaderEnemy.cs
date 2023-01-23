@@ -5,7 +5,6 @@ using UnityEngine.AI;
 using UnityEngine.UI;
 public class CentaurLeaderEnemy : MonoBehaviour
 {
-
     public int lifeEnemyTest;
     public NavMeshAgent enemy;
     public Transform Player;

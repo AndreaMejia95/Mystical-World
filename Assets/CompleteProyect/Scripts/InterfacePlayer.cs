@@ -46,7 +46,7 @@ public class InterfacePlayer : MonoBehaviour
     }
 
     public void fireLessLifeImage(){
-          lifeImage.fillAmount -= 0.1f * Time.deltaTime;
+          lifeImage.fillAmount -= 0.05f * Time.deltaTime;
         if (lifeImage.fillAmount == 0)
         {
           SceneManager.LoadScene("GameOver");

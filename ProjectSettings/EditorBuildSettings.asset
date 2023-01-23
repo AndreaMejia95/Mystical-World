@@ -41,7 +41,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CompleteProyect/Scenes/Canvas/Credits.unity
     guid: 18a94394428e27e4ebf2ad27518f70a3
-  - enabled: 1
-    path: Assets/CompleteProyect/Scenes/Canvas/Audio.unity
-    guid: 1d72a94d036b63e40ab6bd616f0a8595
   m_configObjects: {}

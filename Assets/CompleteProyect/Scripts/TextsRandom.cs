@@ -10,7 +10,7 @@ public class TextsRandom : MonoBehaviour
     public string[]texts;
     public int countText;
     private float spawnDelay = 0.1f;
-    private float spawnInterval=1.4f;
+    private float spawnInterval=0.5f;
 
     void Start()
     {

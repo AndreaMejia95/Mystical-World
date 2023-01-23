@@ -4,11 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class NextLevel : MonoBehaviour
 {
-
-
-
-
- private void OnCollisionEnter(Collision other) {
+   private void OnCollisionEnter(Collision other) {
     if(other.collider.CompareTag("Player")){
       
        ChangeScene(SceneManager.GetActiveScene().name);
@@ -29,7 +25,4 @@ public class NextLevel : MonoBehaviour
               
     }
  }
-
-
-
 }
