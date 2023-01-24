@@ -82,7 +82,7 @@ MonoBehaviour:
     m_Settings:
       shutterAngle: 271
       sampleCount: 14
-      frameBlending: 0.23
+      frameBlending: 0.071
   eyeAdaptation:
     m_Enabled: 0
     m_Settings:
