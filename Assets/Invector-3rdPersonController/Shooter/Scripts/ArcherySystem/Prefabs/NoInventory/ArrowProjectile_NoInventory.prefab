@@ -378,7 +378,7 @@ GameObject:
   - component: {fileID: 23410847150294290}
   m_Layer: 0
   m_Name: vArrow (1)
-  m_TagString: Untagged
+  m_TagString: Arrow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -544,9 +544,10 @@ GameObject:
   - component: {fileID: 114963231600105842}
   - component: {fileID: 114630740814216480}
   - component: {fileID: 114305072012467408}
+  - component: {fileID: 5105867799372918643}
   m_Layer: 11
   m_Name: ArrowProjectile_NoInventory
-  m_TagString: Untagged
+  m_TagString: Arrow
   m_Icon: {fileID: 571167235653111936, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -564,6 +565,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4863395260852438}
+  - {fileID: 3634812676563240503}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -593,10 +595,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
-  m_Radius: 0.1
-  m_Height: 0.1
+  m_Radius: 0.10000001
+  m_Height: 0.5071522
   m_Direction: 2
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0, z: 0.15357608}
 --- !u!114 &114939945238106750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -892,6 +894,44 @@ MonoBehaviour:
   alignToNormal: 0
   penetration: 0
   debugPenetration: 0
+--- !u!114 &5105867799372918643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726370018232204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a6ee24d8c766042b403d33a08151b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openCloseEvents: 0
+  openCloseWindow: 1
+  selectedToolbar: 0
+  damage:
+    damageValue: 20
+    staminaBlockCost: 5
+    staminaRecoveryDelay: 1
+    ignoreDefense: 0
+    activeRagdoll: 0
+    sender: {fileID: 0}
+    receiver: {fileID: 0}
+    hitPosition: {x: 0, y: 0, z: 0}
+    hitReaction: 1
+    recoil_id: 0
+    reaction_id: 0
+    damageType: 
+  overrideDamageSender: {fileID: 0}
+  tags:
+  - Enemy
+  continuousDamage: 0
+  damageFrequency: 0.5
+  onHit:
+    m_PersistentCalls:
+      m_Calls: []
+  collisionMethod: 0
+  part: {fileID: 0}
 --- !u!1 &1756864374068526
 GameObject:
   m_ObjectHideFlags: 0
@@ -976,7 +1016,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &114562647053776108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1252,9 +1292,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4709082188348862}
   - component: {fileID: 137325188878579286}
+  - component: {fileID: 6210597861250963827}
+  - component: {fileID: 5231084328807530957}
   m_Layer: 0
   m_Name: vArrow
-  m_TagString: Untagged
+  m_TagString: Arrow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1329,6 +1371,57 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000047206413, y: 0.0037558018, z: -0.000028062193}
     m_Extent: {x: 0.00010841609, y: 0.0043096873, z: 0.00010976363}
   m_DirtyAABB: 0
+--- !u!114 &6210597861250963827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946715586265860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a6ee24d8c766042b403d33a08151b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openCloseEvents: 0
+  openCloseWindow: 1
+  selectedToolbar: 0
+  damage:
+    damageValue: 30
+    staminaBlockCost: 5
+    staminaRecoveryDelay: 1
+    ignoreDefense: 0
+    activeRagdoll: 0
+    sender: {fileID: 0}
+    receiver: {fileID: 0}
+    hitPosition: {x: 0, y: 0, z: 0}
+    hitReaction: 1
+    recoil_id: 0
+    reaction_id: 0
+    damageType: 
+  overrideDamageSender: {fileID: 0}
+  tags:
+  - Enemy
+  continuousDamage: 0
+  damageFrequency: 0.5
+  onHit:
+    m_PersistentCalls:
+      m_Calls: []
+  collisionMethod: 0
+  part: {fileID: 0}
+--- !u!65 &5231084328807530957
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946715586265860}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.00025072662, y: 0.00021683355, z: 0.008620111}
+  m_Center: {x: 0.000014466565, y: 0.0000004714538, z: -0.0037558782}
 --- !u!1 &1959110728299824
 GameObject:
   m_ObjectHideFlags: 0
@@ -1392,3 +1485,68 @@ Transform:
   m_Father: {fileID: 4984412741181406}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5285688231804449804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3634812676563240503}
+  - component: {fileID: 1598662641962375982}
+  - component: {fileID: 5765921717654461769}
+  m_Layer: 2
+  m_Name: hitBox
+  m_TagString: Weapon
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3634812676563240503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5285688231804449804}
+  m_LocalRotation: {x: 0.52255046, y: 0.477447, z: -0.50065404, w: 0.4983281}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.7936004, y: 0.8812002, z: 12.160101}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4921100307380848}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1598662641962375982
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5285688231804449804}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.7600007, y: 0.60303366, z: 0.03}
+  m_Center: {x: 2.12, y: -0.17333661, z: -5.7520794e-11}
+--- !u!114 &5765921717654461769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5285688231804449804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb97f58541b05b24ab37661346298ff2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openCloseEvents: 0
+  openCloseWindow: 0
+  selectedToolbar: 0
+  attackObject: {fileID: 0}
+  trigger: {fileID: 1598662641962375982}
+  damagePercentage: 100
+  triggerType: -1

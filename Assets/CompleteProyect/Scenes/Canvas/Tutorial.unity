@@ -5004,6 +5004,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 847106440}
     m_Modifications:
+    - target: {fileID: 4351893861639800192, guid: 78c0c1c6091347240ac0203e166659aa,
+        type: 3}
+      propertyPath: showCursorOnStart
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351893861639800192, guid: 78c0c1c6091347240ac0203e166659aa,
+        type: 3}
+      propertyPath: unlockCursorOnStart
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4351893861639800195, guid: 78c0c1c6091347240ac0203e166659aa,
         type: 3}
       propertyPath: selectedToolbar

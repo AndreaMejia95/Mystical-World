@@ -2232,11 +2232,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11412816, guid: 80dd0462ab7502b48a7fe99ea1cd882a, type: 3}
       propertyPath: openCloseWindow
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11473526, guid: 80dd0462ab7502b48a7fe99ea1cd882a, type: 3}
       propertyPath: openCloseWindow
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11476208, guid: 80dd0462ab7502b48a7fe99ea1cd882a, type: 3}
       propertyPath: openCloseWindow
@@ -2450,6 +2450,22 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 1289219825712412, guid: a16cbf43beb9f864595ba71c37132c83, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593178534263834, guid: a16cbf43beb9f864595ba71c37132c83, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671884421353350, guid: a16cbf43beb9f864595ba71c37132c83, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914592376871148, guid: a16cbf43beb9f864595ba71c37132c83, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4447286785858562, guid: a16cbf43beb9f864595ba71c37132c83, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2482,6 +2498,16 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 114587693973821878, guid: a16cbf43beb9f864595ba71c37132c83,
+        type: 3}
+      propertyPath: openCloseWindow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114587693973821878, guid: a16cbf43beb9f864595ba71c37132c83,
+        type: 3}
+      propertyPath: hitProperties.drawRecoilGizmos
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 114594396638726514, guid: a16cbf43beb9f864595ba71c37132c83,
         type: 3}
       propertyPath: reactionID
@@ -2491,6 +2517,11 @@ PrefabInstance:
         type: 3}
       propertyPath: overrideReactionID
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114871562875845146, guid: a16cbf43beb9f864595ba71c37132c83,
+        type: 3}
+      propertyPath: selectedToolbar
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224313555893490306, guid: a16cbf43beb9f864595ba71c37132c83,
         type: 3}
@@ -5843,7 +5874,7 @@ PrefabInstance:
     - target: {fileID: 114950140397802378, guid: f50dc0751f90082449ab27c3394e523c,
         type: 3}
       propertyPath: selectedToolbar
-      value: 8
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f50dc0751f90082449ab27c3394e523c, type: 3}

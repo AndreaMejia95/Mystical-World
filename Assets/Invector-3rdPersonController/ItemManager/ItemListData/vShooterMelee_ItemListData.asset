@@ -1041,5 +1041,5 @@ MonoBehaviour:
   DisableAnim: LowBack
   enableDelayTime: 0.5
   disableDelayTime: 0.5
-  customHandler: SwordEquipPoint
+  customHandler: 
   twoHandWeapon: 0
