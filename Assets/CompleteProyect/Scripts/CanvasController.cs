@@ -11,7 +11,7 @@ public class CanvasController : MonoBehaviour
     public void StartMenu(string name){
         SceneManager.LoadScene(name);
     }
-    
+
     public void StartPlay(string name){
         SceneManager.LoadScene(name);
     }

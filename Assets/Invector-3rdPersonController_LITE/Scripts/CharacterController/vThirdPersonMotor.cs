@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 namespace Invector.vCharacterController
 {
@@ -398,6 +399,7 @@ namespace Invector.vCharacterController
             // trigger die animation            
             if (deathBy == DeathBy.Animation || deathBy == DeathBy.AnimationWithRagdoll)
                 animator.SetBool("isDead", true);
+                SceneManager.LoadScene("GameOver"); //If life player = 0
         }
 
         void CheckHealth()

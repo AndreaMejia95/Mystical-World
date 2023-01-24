@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Invector.vCharacterController
 {
@@ -30,6 +31,14 @@ namespace Invector.vCharacterController
                 return;
             }
         }
+
+        /*private void OnCollisionEnter(Collision other) {
+            if(other.transform.CompareTag("BadWall")){
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+        }*/
+
+        
 
         public virtual void MoveToPosition(Vector3 targetPosition)
         {

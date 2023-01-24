@@ -18,6 +18,8 @@ namespace Invector.vCharacterController
         public GenericInput strongAttackInput = new GenericInput("Alpha1", false, "RT", true, "RT", false);
         public GenericInput blockInput = new GenericInput("Mouse1", "LB", "LB");
 
+        
+
         internal vMeleeManager meleeManager;
         public bool isAttacking { get; protected set; }
         public bool isBlocking { get; protected set; }

@@ -45,6 +45,7 @@ namespace Invector
                 {
                     _isDead = true;
                     onDead.Invoke(gameObject);
+                    Destroy(gameObject, 4.0f); //Destroy Enemies death
                 }
                 else if (isDead && _currentHealth > 0)
                 {

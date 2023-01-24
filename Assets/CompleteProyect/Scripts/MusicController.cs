@@ -47,13 +47,31 @@ public class MusicController : MonoBehaviour
         PlayerPrefs.SetFloat("volumenSave", enviroment.value);
     }
 
-    public void ControlMusic(){
+    public void ActiveMusic(){
         panelPause.SetActive(false);
         panelMusic.SetActive(true);
+        Pause();
     }
 
     public void ReturnPause(){
         panelPause.SetActive(true);
         panelMusic.SetActive(false);
+    }
+
+    public void PauseActive()
+    {
+        panelPause.SetActive(true);
+        panelMusic.SetActive(false);
+        Pause();
+    }
+
+    public void PauseDesactive()
+    {
+        panelPause.SetActive(false);
+    }
+
+    public void Pause()
+    {
+        InterfacePlayer.instance.PauseInterface();
     }
 }
