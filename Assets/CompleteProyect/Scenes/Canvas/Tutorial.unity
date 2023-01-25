@@ -4196,6 +4196,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 0f5b783800577ea4693b5e01d66f9afe, type: 2}
+    - target: {fileID: 71196642085022925, guid: f38f72dc04e1ad14398e8b6e4b9564b7,
+        type: 3}
+      propertyPath: maxHealth
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 279245061755134719, guid: f38f72dc04e1ad14398e8b6e4b9564b7,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -5004,6 +5009,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 847106440}
     m_Modifications:
+    - target: {fileID: 3349414652975797636, guid: 78c0c1c6091347240ac0203e166659aa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4351893861639800192, guid: 78c0c1c6091347240ac0203e166659aa,
         type: 3}
       propertyPath: showCursorOnStart
@@ -7490,7 +7500,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -75, y: -55}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 200, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2107646532
 MonoBehaviour:
@@ -7524,12 +7534,14 @@ MonoBehaviour:
 
     Jump: Bar Space
 
+    Lock on enemy: Tab
+
     Crunch: Key C
 
-    Roll: Key Q
+    Roll:
+    Key Q
 
-    Move Camera:
-    Mouse
+    Move Camera: Mouse
 
     Pause: Key ESC
 
