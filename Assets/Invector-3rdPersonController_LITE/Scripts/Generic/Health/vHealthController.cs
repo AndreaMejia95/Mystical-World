@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 namespace Invector
 {
     [vClassHeader("HealthController", iconName = "HealthControllerIcon")]
@@ -53,6 +54,8 @@ namespace Invector
                 }
             }
         }
+
+        
         public bool isDead
         {
             get
@@ -226,6 +229,14 @@ namespace Invector
             public HealthCompare healthCompare = HealthCompare.Equals;
 
             public UnityEngine.Events.UnityEvent OnCheckHealth;
+        }
+
+        private void OnCollisionEnter(Collision collision)
+        {
+            if (collision.collider.CompareTag("Arrow"))
+            {
+                maxHealth = maxHealth - 20;
+            }
         }
     }
 }

@@ -13,7 +13,7 @@ namespace Invector.vCharacterController
         public static vThirdPersonController instance;
 
         #endregion
-
+        
         protected override void Start()
         {
             base.Start();
@@ -287,26 +287,5 @@ namespace Invector.vCharacterController
         }
 
         #endregion
-
-        /*public virtual void ShootBow()
-        {
-            if (!CollisionPlayer.instance.isChange)
-            {
-                animator.SetBool("AtackBow", true);
-                BowMechanic.instance.ArrowShoot();
-                Invoke("StopShootBOw", 1.2f);
-            }
-        }
-
-        public virtual void StopShootBOw()
-        {
-            animator.SetBool("AtackBow", false);
-
-        }
-
-        public virtual void ChangeWeapon()
-        {
-            CollisionPlayer.instance.ChangeWeapon();
-        }*/
     }
 }

@@ -95,8 +95,8 @@ public class LeaderGiantEnemy : MonoBehaviour
                 animatorEnemy.SetTrigger("death");
                 IsAtackPlayer = false;
                 StopCoroutine("AtackPlayer");
-                Destroy(gameObject,2f);
-                doorObject.GetComponent<BoxCollider>().enabled = true;
+                //doorObject.GetComponent<BoxCollider>().enabled = true;
+                Destroy(gameObject,3.0f);
             }
 
         }
@@ -105,7 +105,7 @@ public class LeaderGiantEnemy : MonoBehaviour
         {
            // gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(7f, 0, 7f), ForceMode.Impulse);
            // print(lifeEnemy);
-            lifeEnemy.fillAmount -= 10f * Time.deltaTime;
+            lifeEnemy.fillAmount -= 3f * Time.deltaTime;
 
             if (lifeEnemy.fillAmount <= 0)
             {
