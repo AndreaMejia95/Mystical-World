@@ -22,12 +22,9 @@ public class BowMechanic : MonoBehaviour
         {
             Destroy(this);
         }
-
-
     }
-
-        public void ArrowShoot()
-    {
+        
+    private void OnMouseDown() {
         if (isInstantiateArrow)
         {
             print("Esta disprando muchas flechas " + isInstantiateArrow);
@@ -46,13 +43,11 @@ public class BowMechanic : MonoBehaviour
 
             Invoke("CanInstantiateArrow", 1.2f);
         }
-
     }
+        
 
     public void CanInstantiateArrow()
     {
         isInstantiateArrow = true;
     }
-
-
 }

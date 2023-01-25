@@ -75,6 +75,7 @@ public class CollisionPlayer : MonoBehaviour
 
         }
     }
+    
     public void ChangeWeapon()
     {
         if (canChangeWeapon)

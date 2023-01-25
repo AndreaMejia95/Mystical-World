@@ -24,7 +24,7 @@ public class LeaderGiantEnemy : MonoBehaviour
     }
 
     private void Update() {
-float dist = Vector3.Distance(player.position, transform.position);
+    float dist = Vector3.Distance(player.position, transform.position);
         print(dist);
       
 /*
@@ -81,7 +81,7 @@ float dist = Vector3.Distance(player.position, transform.position);
         }
 
     }
-
+    
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.CompareTag("Sword"))
@@ -95,7 +95,7 @@ float dist = Vector3.Distance(player.position, transform.position);
                 animatorEnemy.SetTrigger("death");
                 IsAtackPlayer = false;
                 StopCoroutine("AtackPlayer");
-                Destroy(gameObject,3f);
+                Destroy(gameObject,2f);
                 doorObject.GetComponent<BoxCollider>().enabled = true;
             }
 
@@ -105,7 +105,24 @@ float dist = Vector3.Distance(player.position, transform.position);
         {
            // gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(7f, 0, 7f), ForceMode.Impulse);
            // print(lifeEnemy);
-            lifeEnemy.fillAmount -= 10f * Time.deltaTime;
+            lifeEnemy.fillAmount -= 5f * Time.deltaTime;
+
+            if (lifeEnemy.fillAmount <= 0)
+            {
+
+                IsDead = true;
+                StopCoroutine("AtackPlayer");
+                animatorEnemy.SetTrigger("death");
+                doorObject.GetComponent<BoxCollider>().enabled = true;
+                textDoor.SetActive(true);
+                Destroy(gameObject,2f);
+            }
+        }
+    }
+/*
+    private void OnCollisionEnter(Collision collision)
+    {
+        lifeEnemy.fillAmount -= 10f * Time.deltaTime;
 
             if (lifeEnemy.fillAmount <= 0)
             {
@@ -118,8 +135,7 @@ float dist = Vector3.Distance(player.position, transform.position);
                 textDoor.SetActive(true);
                 Destroy(gameObject,4f);
             }
-        }
-    }
+    }*/
 
 
 }
