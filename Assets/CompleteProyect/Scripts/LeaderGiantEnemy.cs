@@ -105,7 +105,7 @@ public class LeaderGiantEnemy : MonoBehaviour
         {
            // gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(7f, 0, 7f), ForceMode.Impulse);
            // print(lifeEnemy);
-            lifeEnemy.fillAmount -= 5f * Time.deltaTime;
+            lifeEnemy.fillAmount -= 10f * Time.deltaTime;
 
             if (lifeEnemy.fillAmount <= 0)
             {
