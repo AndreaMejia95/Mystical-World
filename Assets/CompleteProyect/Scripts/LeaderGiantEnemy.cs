@@ -11,8 +11,8 @@ public class LeaderGiantEnemy : MonoBehaviour
     public Transform cross;
     public Image lifeEnemy;
     public Animator animatorEnemy;
-    public GameObject doorObject;
-    public GameObject textDoor;
+    //public GameObject doorObject;
+    //public GameObject textDoor;
     public bool IsAtackPlayer= true;
     public bool IsDead = false;
 
@@ -94,7 +94,7 @@ public class LeaderGiantEnemy : MonoBehaviour
                 StopCoroutine("AtackPlayer");
                 animatorEnemy.SetTrigger("death");
                 //doorObject.GetComponent<BoxCollider>().enabled = true;
-                textDoor.SetActive(true);
+                //textDoor.SetActive(true);
                 Destroy(gameObject, 2f);
             }
 

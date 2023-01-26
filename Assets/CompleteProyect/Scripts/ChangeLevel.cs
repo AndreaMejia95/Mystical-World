@@ -11,7 +11,7 @@ public class ChangeLevel : MonoBehaviour
 
     void Start()
     {
-        loadingScena("Level1");
+        loadingScena("Level1And2");
     }
 
 
