@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/CompleteProyect/Scenes/Canvas/Task1.unity
     guid: 91af937644af81e46b54e8b05fe45a74
   - enabled: 1
-    path: Assets/CompleteProyect/Scenes/Level1.unity
+    path: Assets/CompleteProyect/Scenes/Level1y2.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/CompleteProyect/Scenes/Canvas/Task2.unity
@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CompleteProyect/Scenes/Canvas/Credits.unity
     guid: 18a94394428e27e4ebf2ad27518f70a3
+  - enabled: 1
+    path: Assets/CompleteProyect/Scenes/Prueba.unity
+    guid: 3bf3371b6c9bb2b4bb64f7d8bdf58610
   m_configObjects: {}
