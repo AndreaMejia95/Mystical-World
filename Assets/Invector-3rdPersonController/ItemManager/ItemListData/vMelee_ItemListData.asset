@@ -550,7 +550,7 @@ MonoBehaviour:
   type: 0
   icon: {fileID: 21300000, guid: 17e137951fa03ca409eff46d174a8893, type: 3}
   stackable: 1
-  maxStack: 10
+  maxStack: 50
   amount: 0
   originalObject: {fileID: 0}
   dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 3}

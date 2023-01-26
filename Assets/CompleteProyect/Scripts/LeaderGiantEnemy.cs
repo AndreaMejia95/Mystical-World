@@ -81,13 +81,32 @@ public class LeaderGiantEnemy : MonoBehaviour
         }
 
     }
-    
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Sword"))
+        {        
+
+            lifeEnemy.fillAmount -= 1f * Time.deltaTime;
+
+            if (lifeEnemy.fillAmount <= 0)
+            {
+                IsDead = true;
+                StopCoroutine("AtackPlayer");
+                animatorEnemy.SetTrigger("death");
+                //doorObject.GetComponent<BoxCollider>().enabled = true;
+                textDoor.SetActive(true);
+                Destroy(gameObject, 2f);
+            }
+
+        }
+    }
+
+    /*private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.CompareTag("Sword"))
         {
            // gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(7f, 0, 7f), ForceMode.Impulse);        
-           
+
             lifeEnemy.fillAmount -= 3f * Time.deltaTime;
             if (lifeEnemy.fillAmount <= 0)
             {
@@ -118,24 +137,24 @@ public class LeaderGiantEnemy : MonoBehaviour
                 Destroy(gameObject,2f);
             }
         }
-    }
-/*
-    private void OnCollisionEnter(Collision collision)
-    {
-        lifeEnemy.fillAmount -= 10f * Time.deltaTime;
-
-            if (lifeEnemy.fillAmount <= 0)
-            {
-
-                IsDead = true;
-                StopCoroutine("AtackPlayer");
-
-                animatorEnemy.SetTrigger("death");
-                doorObject.GetComponent<BoxCollider>().enabled = true;
-                textDoor.SetActive(true);
-                Destroy(gameObject,4f);
-            }
     }*/
+    /*
+        private void OnCollisionEnter(Collision collision)
+        {
+            lifeEnemy.fillAmount -= 10f * Time.deltaTime;
+
+                if (lifeEnemy.fillAmount <= 0)
+                {
+
+                    IsDead = true;
+                    StopCoroutine("AtackPlayer");
+
+                    animatorEnemy.SetTrigger("death");
+                    doorObject.GetComponent<BoxCollider>().enabled = true;
+                    textDoor.SetActive(true);
+                    Destroy(gameObject,4f);
+                }
+        }*/
 
 
 }
